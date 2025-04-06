@@ -24,7 +24,7 @@ function Navbar() {
         },
         {
             id:5,
-            text:"Contacts"
+            text:"Contact"
         },
     ]
   return (
@@ -40,7 +40,7 @@ function Navbar() {
 
             {/* Desktop navbar */}
             <div>
-                <ul className='hidden md:flex space-x-8'>
+                <ul className='hidden md:flex space-x-8 hover:cursor-pointer'>
                     {
                         navItems.map(({id,text})=> (
                             <li key={id}>
